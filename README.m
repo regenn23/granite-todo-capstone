@@ -1,7 +1,7 @@
  Granite To-Do — Capstone Project
 
  Deskripsi singkat
-A Capstone To-Do web app with CRUD, categories, priorities, due date, search/filter, dark mode, export/import, and an **AI Helper** powered by **IBM Granite** (via Replicate).
+A Capstone To-Do web app with CRUD, categories, priorities, due date, search/filter, dark mode, export/import, and an AI Helper powered by IBM Granite (via Replicate).
 
  Cara jalankan (Replit)
 1. Paste semua file ke Replit.
@@ -22,8 +22,8 @@ A Capstone To-Do web app with CRUD, categories, priorities, due date, search/fil
  AI usage
 See `ai_log.md` for all prompts and results from IBM Granite used during development.
 
-## Deploy
+ Deploy
 - You can deploy static part to Netlify/Vercel if you remove backend AI, or keep backend and deploy to platforms that support serverless functions.
 
-## Author
-Your Name — Capstone participant
+ Author
+Ra Gentar Amar Ma'ruf — Capstone participant
