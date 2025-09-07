@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Granite To-Do — Capstone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">🌟 Granite To-Do</div>
+    <nav>
+      <button id="nav-list" class="navbtn">📋 Daftar</button>
+      <button id="nav-add" class="navbtn">➕ Tambah</button>
+      <button id="nav-ai" class="navbtn">🤖 AI Helper</button>
+      <button id="toggle-theme" class="navbtn">🌙 Dark</button>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main id="app" class="container"></main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>🚀 Built for Capstone — Powered by IBM Granite</p>
+  </footer>
+
+  <!-- TEMPLATE TASK -->
+  <template id="ta">
+    <div class="task">
+      <div class="left">
+        <input type="checkbox" class="chk-done" />
+        <div class="meta">
+          <div class="title"></div>
+          <div class="note"></div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="badges"></div>
+        <div class="actions">
+          <button class="btn small edit">✏️ Edit</button>
+          <button class="btn small danger del">🗑️ Hapus</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
