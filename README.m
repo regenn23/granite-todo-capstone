@@ -1,16 +1,16 @@
-# Granite To-Do — Capstone Project
+ Granite To-Do — Capstone Project
 
-## Deskripsi singkat
+ Deskripsi singkat
 A Capstone To-Do web app with CRUD, categories, priorities, due date, search/filter, dark mode, export/import, and an **AI Helper** powered by **IBM Granite** (via Replicate).
 
-## Cara jalankan (Replit)
+ Cara jalankan (Replit)
 1. Paste semua file ke Replit.
 2. Tambahkan Secrets:
    - `REPLICATE_API_TOKEN` — dari Replicate account.
    - `REPLICATE_MODEL_VERSION` — model version id untuk Granite (lihat halaman model di Replicate).
-3. Klik **Run**. Aplikasi akan tersedia di URL Replit.
-
-## Fitur
+3. Klik Run. Aplikasi akan tersedia di URL Replit.
+ 
+ Fitur
 - Create / Read / Update / Delete tasks
 - Category, Priority, Due date, Overdue highlight
 - Search, Filter, Sort
@@ -19,7 +19,7 @@ A Capstone To-Do web app with CRUD, categories, priorities, due date, search/fil
 - AI Helper (ask Gran ite, or generate todo lists) — optional (requires Replicate token)
 - `ai_log.md` contains AI prompts & summaries used (transparency)
 
-## AI usage
+ AI usage
 See `ai_log.md` for all prompts and results from IBM Granite used during development.
 
 ## Deploy
